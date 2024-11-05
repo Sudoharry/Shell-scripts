@@ -1,0 +1,6 @@
+#!/bin/bash
+
+var_1="Harry"
+var_2="Barot"
+
+echo "$var_1 var_2"
