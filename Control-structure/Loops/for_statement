@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#Start of the Loop
+
+for a in 1 2 3 4 5 6 7 8 9 10   #Initiates a for loop iterates over the value 1 through 10, assigning each value to the variable a in each iteration
+do   #start of the loop
+
+if [ $a -eq 7 ]    #Check the current value a is less than 7
+   then  #Mark the conditional block to be executed if the conditions is true
+   break #Exit the loop if conditions is true
+fi  #Mark the end of conditions block
+
+#Print Iteration
+echo "Iteration no $a"
+done
