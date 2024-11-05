@@ -1,0 +1,25 @@
+#!/bin/bash
+
+##variable definitions
+Var_name="Devil"
+Var_age=23
+
+# accessing the declared variables using $
+echo "Name is $Var_name, and age is $Var_age."
+
+# read-only variables
+var_blood_group="O-"
+readonly var_blood_group
+echo "Blood group is $var_blood_group and read only."
+echo "Error for read only variables, if trying to \
+modify them."
+echo
+var_blood_group="B+"
+echo
+
+## unsetting variables
+unset Var_age
+echo "After unsetting var_age..."
+echo#
+echo "Name is $Var_name, blood group is $var_blood_group\
+ and age is $Var_age..."
