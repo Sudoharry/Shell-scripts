@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for a in 1 2 3 4 5 6 7 8 9 10
+do
+        #If a=5 then continue the loop
+        #don't move to the line 8
+if [ $a = 5 ]
+then
+continue
+fi
+echo "Iteration no: $a"
+
+done
