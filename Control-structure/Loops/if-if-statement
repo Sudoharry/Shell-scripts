@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+##Author Harry B
+##Take input of two variables
+
+echo "Enter the value of var_a"
+read var_a
+
+echo "Enter the value of var_b"
+read var_b
+
+#When variable var_a is equal to var_b
+if [ $var_a -eq $var_b ]; then
+        echo "var_a is equal to var_b"
+fi
+
+#When variable var_a is not equal to var_b
+if [ $var_a -ne $var_b ]; then
+        echo "var_a is not equal o var_b"
+fi
